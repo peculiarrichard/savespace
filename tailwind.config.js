@@ -31,7 +31,11 @@ module.exports = {
       'lg': '992px',
       'xl': '1200px'
     },
-     extend: {},
+     extend: {
+      backgroundImage:{
+        'save': "url('/src/images/wesave.png')"
+      }
+     },
    },
    plugins: [],
  }
